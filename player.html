@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Player</title>
+        <link rel="stylesheet" href="style.css">
+        <script src=ajax.js></script>
+        <script src=tuxi.js></script>
+    </head>
+    <body>
+        <div class="player-form">
+            <div class="player-list playhide">
+                <input class="songadd-content">
+                <span class="songadd-btn">+</span>
+                <!-- <h3 class="list-cells" data-id = 34614664 data-order = 1>1、找到你是我最伟大的成</h3>
+                <h3 class="list-cells" data-id = 189435 data-order = 2>2、孤独不苦</h3>
+                <h3 class="list-cells" data-id = 167916 data-order = 3>3、梦一场</h3> -->
+            </div>
+            <div class="bg-style">
+            </div>
+            <div class="header">
+                <a class="song-volume"></a>
+                <a class="song-share"></a>
+            </div>
+            <div class="player-content">
+                <div class="shadow-style"></div>
+                <h1 class="song-title">Song Name</h1>
+
+                <div class="song-content">
+                    <span id = "line-1">作曲 : PAN</span>
+                    <br>
+                    <br>
+                    <span id = "line-2">作词 : 黄婷</span>
+                    <br>
+                    <br>
+                    <span id = "line-3">虽然没能 穿上披风</span>
+                </div>
+
+                <div class="song-btn">
+                    <span class="songup-btn"></span>
+                    <span class="songplay-btn"></span>
+                    <span class="songpause-btn playhide"></span>
+                    <span class="songdown-btn"></span>
+                </div>
+                <div class="song-time"></div>
+            </div>
+            <div class="footer">
+                <span class="song-order"></span>
+                <span class="song-list"></span>
+            </div>
+            <audio id='id-audio-player' calss="audio-player" controls="controls">
+            <source src="https://music.163.com/song/media/outer/url?id=34614664.mp3">
+            </audio >
+
+    　　　　 <div class="progress">
+                <div class="progress_bg">
+                    <div class="progress_bar"></div>
+                </div>
+                <div class="progress_btn"></div>
+            </div>
+
+            <div class="songprogress">
+                <div class="songprogress_bg">
+                    <div class="songprogress_bar"></div>
+                </div>
+                <div class="songprogress_btn"></div>
+            </div>
+        </div>
+
+        <script src=player.js></script>
+        <script src=songdata.js></script>
+    </body>
+</html>
